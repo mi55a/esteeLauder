@@ -67,14 +67,14 @@
             <objects>
                 <viewController id="G90-Yi-b3d" customClass="productPage" customModule="esteeLauder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BwO-E2-DKT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="893"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xj9-k1-Ndy">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="893"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afc-Ko-hW1">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1700"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1694.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="aSG-Q6-9aM">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
@@ -179,6 +179,7 @@ Synchronized Multi-Recovery Complex</string>
                                         <color key="backgroundColor" red="0.92549026010000002" green="0.92549026010000002" blue="0.92549026010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                 </subviews>
+                                <color key="backgroundColor" red="0.92549026010000002" green="0.92549026010000002" blue="0.92549026010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="afc-Ko-hW1" firstAttribute="top" secondItem="Xj9-k1-Ndy" secondAttribute="top" id="eXs-6x-Pca"/>
                                     <constraint firstAttribute="trailing" secondItem="afc-Ko-hW1" secondAttribute="trailing" id="twR-QC-roL"/>
@@ -200,7 +201,7 @@ Synchronized Multi-Recovery Complex</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="89f-6x-PGx"/>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="893"/>
                     <connections>
                         <outlet property="serumProduct" destination="dZt-nw-s0z" id="yFd-Rl-f8w"/>
                         <outlet property="viewProductButton" destination="YzU-pR-Cam" id="D6r-dd-I6f"/>
@@ -208,20 +209,20 @@ Synchronized Multi-Recovery Complex</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ktU-Bq-ZRb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="771.01449275362324" y="-31.473214285714285"/>
+            <point key="canvasLocation" x="771.01449275362324" y="-30.46875"/>
         </scene>
         <!--Video Page-->
         <scene sceneID="PNa-vR-5Yk">
             <objects>
                 <viewController id="ZJf-8g-lwl" customClass="videoPage" customModule="esteeLauder" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FQh-v4-RDm">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="FQh-v4-RDm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ix-eC-aud">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ix-eC-aud">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5kA-qa-2Cv">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5kA-qa-2Cv">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goes Great with Other Products" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90X-qb-RSe">
@@ -373,8 +374,9 @@ Youth Power Creme</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="ayd-16-6CS"/>
         <segue reference="rjV-gb-LG9"/>
-        <segue reference="5nQ-l9-QNr"/>
+        <segue reference="nAH-xn-8le"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="0" width="3000" height="3000"/>
