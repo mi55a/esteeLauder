@@ -215,14 +215,14 @@ Synchronized Multi-Recovery Complex</string>
         <scene sceneID="PNa-vR-5Yk">
             <objects>
                 <viewController id="ZJf-8g-lwl" customClass="videoPage" customModule="esteeLauder" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="FQh-v4-RDm">
+                    <view key="view" contentMode="scaleToFill" id="FQh-v4-RDm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ix-eC-aud">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ix-eC-aud">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5kA-qa-2Cv">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5kA-qa-2Cv">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goes Great with Other Products" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90X-qb-RSe">
@@ -352,10 +352,12 @@ Youth Power Creme</string>
                         <constraints>
                             <constraint firstItem="6ix-eC-aud" firstAttribute="top" secondItem="FQh-v4-RDm" secondAttribute="top" id="G9F-ru-pTI"/>
                             <constraint firstItem="6ix-eC-aud" firstAttribute="trailing" secondItem="BAb-rj-b52" secondAttribute="trailing" id="QDi-pu-hiA"/>
+                            <constraint firstItem="5kA-qa-2Cv" firstAttribute="height" secondItem="FQh-v4-RDm" secondAttribute="height" multiplier="1.67411" id="Qf3-bn-qGv"/>
                             <constraint firstItem="6ix-eC-aud" firstAttribute="leading" secondItem="BAb-rj-b52" secondAttribute="leading" id="Tad-xs-ADn"/>
                             <constraint firstItem="5kA-qa-2Cv" firstAttribute="height" secondItem="FQh-v4-RDm" secondAttribute="height" multiplier="1.67411" id="hx4-6k-BQX"/>
                             <constraint firstItem="5kA-qa-2Cv" firstAttribute="width" secondItem="FQh-v4-RDm" secondAttribute="width" id="nY6-FQ-ibf"/>
                             <constraint firstAttribute="bottom" secondItem="6ix-eC-aud" secondAttribute="bottom" id="rne-w9-dif"/>
+                            <constraint firstItem="5kA-qa-2Cv" firstAttribute="width" secondItem="FQh-v4-RDm" secondAttribute="width" id="uip-ft-DjT"/>
                         </constraints>
                     </view>
                     <size key="freeformSize" width="414" height="896"/>
@@ -374,9 +376,8 @@ Youth Power Creme</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ayd-16-6CS"/>
         <segue reference="rjV-gb-LG9"/>
-        <segue reference="nAH-xn-8le"/>
+        <segue reference="5nQ-l9-QNr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="0" width="3000" height="3000"/>
