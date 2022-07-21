@@ -351,9 +351,12 @@ Youth Power Creme</string>
                         <color key="backgroundColor" red="0.92549026010000002" green="0.92549026010000002" blue="0.92549026010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6ix-eC-aud" firstAttribute="top" secondItem="FQh-v4-RDm" secondAttribute="top" id="G9F-ru-pTI"/>
+                            <constraint firstItem="5kA-qa-2Cv" firstAttribute="height" secondItem="FQh-v4-RDm" secondAttribute="height" multiplier="1.67411" id="Mna-Wc-d1v"/>
                             <constraint firstItem="6ix-eC-aud" firstAttribute="trailing" secondItem="BAb-rj-b52" secondAttribute="trailing" id="QDi-pu-hiA"/>
                             <constraint firstItem="5kA-qa-2Cv" firstAttribute="height" secondItem="FQh-v4-RDm" secondAttribute="height" multiplier="1.67411" id="Qf3-bn-qGv"/>
                             <constraint firstItem="6ix-eC-aud" firstAttribute="leading" secondItem="BAb-rj-b52" secondAttribute="leading" id="Tad-xs-ADn"/>
+                            <constraint firstItem="5kA-qa-2Cv" firstAttribute="width" secondItem="FQh-v4-RDm" secondAttribute="width" id="Uv5-bw-388"/>
+                            <constraint firstItem="5kA-qa-2Cv" firstAttribute="height" secondItem="FQh-v4-RDm" secondAttribute="height" multiplier="1.67411" id="eJ8-PQ-6tr"/>
                             <constraint firstItem="5kA-qa-2Cv" firstAttribute="height" secondItem="FQh-v4-RDm" secondAttribute="height" multiplier="1.67411" id="hx4-6k-BQX"/>
                             <constraint firstItem="5kA-qa-2Cv" firstAttribute="width" secondItem="FQh-v4-RDm" secondAttribute="width" id="nY6-FQ-ibf"/>
                             <constraint firstAttribute="bottom" secondItem="6ix-eC-aud" secondAttribute="bottom" id="rne-w9-dif"/>
